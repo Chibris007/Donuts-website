@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1400px) {
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    text-align: right;
+    margin: 10px auto;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 7px 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: rgb(207, 19, 107);
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.container {
+    
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./img/donuts2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.item {
+    color: rgb(207, 19, 107);;
+    font-size: 80px;
+    margin: 50px 0px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.item1 {
+    color:#FFFFDD;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: rgb(207, 19, 107);;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-cont {
+    
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-box {
+    
+    width: 40%;
+    text-align: justify;
+    line-height: 200%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.left-box {
+    margin-left: 6%;
+    width: 40%;
+    
+}
+
+.top-row, .down-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grid-img-one {
+    background-image: url(./img/donuts.jpg);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-img-two {
+    background-image: url(./img/donuts1.jpg);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-img-three {
+    background-image: url(./img/donuts4.jpg);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-img-four {
+    background-image: url(./img/donuts6.jpg);
+    width: 50%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.donuts-section {
+    width: 100vw;
+}
+
+.image-cont {
+    width: 100%;
+}
+
+.row-one, .row-two, .row-three {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.grid-item {
+    
+    width: 30%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 15px;
+}
+
+.grid-item:hover {
+    opacity: 0.8;
+    transform: rotateY(130deg);
+}
+
+#donut-one {
+    background-image: url(./img/donuts10.jpg);
+    border-radius: 5px;
+}
+
+#donut-two {
+    background-image: url(./img/donuts9.jpg);
+    border-radius: 5px;
+    
+}
+
+#donut-three {
+    background-image: url(./img/donuts8.jpg);
+    border-radius: 5px;
+}
+
+#donut-four {
+    background-image: url(./img/donuts7.jpg);
+    border-radius: 5px;
+}
+#donut-five {
+    background-image: url(./img/donuts6.jpg);
+    border-radius: 5px;
+}
+#donut-six {
+    background-image: url(./img/donuts5.jpg);
+    border-radius: 5px;
+}
+
+#donut-seven {
+    background-image: url(./img/donut13.jpg);
+    border-radius: 5px;
+}
+
+#donut-eight {
+    background-image: url(./img/donut12.jpg);
+    border-radius: 5px;
+}
+
+#donut-nine {
+    background-image: url(./img/donuts11.jpg);
+    border-radius: 5px;
+}
+
+.stores-section {
+    width: 100vw;
+}
+
+.stores-cont {   
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {    
+    width: 35%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: #FFFFDD;
+}
+
+.cont-title {
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.email {
+    font-size: 120%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.social-media-icon {
+    margin: 0px 8px;
+}
+
+}
